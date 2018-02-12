@@ -7,9 +7,10 @@ shinyUI(fluidPage(theme = shinytheme("flatly"),
   # Application title
   titlePanel("CHADS2 Risk Calculator"),
   
-  # Sidebar with a slider input for number of bins 
+  # Sidebar with risk scoring buttons
   sidebarLayout(
     sidebarPanel(
+      print("Review patient clinical history and check boxes where indicated:"),
       checkboxInput("chf", "CHF history", value = FALSE, width = NULL),
       checkboxInput("htn", "Hypertensive history", value = FALSE, width = NULL),
       checkboxInput("age", "Age > 75", value = FALSE, width = NULL),
