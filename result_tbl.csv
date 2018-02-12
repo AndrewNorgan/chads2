@@ -1,0 +1,8 @@
+score, result, risk
+0, 1.9% annual risk (no coumadin), Low 
+1, 2.8% annual risk (no coumadin), Intermediate
+2, 4.0% annual risk (no coumadin), Intermediate
+3, 5.9% annual risk (no coumadin), High
+4, 8.5% annual risk (no coumadin), High
+5, 12.5% annual risk (no coumadin), High
+6, 18.2% annual risk (no coumadin), Very high
